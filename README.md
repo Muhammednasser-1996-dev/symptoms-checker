@@ -1,0 +1,2 @@
+# symptoms-checker
+statick web
