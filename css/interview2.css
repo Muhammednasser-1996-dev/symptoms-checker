@@ -1,0 +1,63 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Balsamiq Sans', cursive;
+    overflow-x: hidden;
+    background-color: #F3F5F7;
+    box-sizing: border-box;
+}
+.bg-nav{
+    background-color:#008ec7 
+}
+
+.nav-bar .container{
+color: #ffffff;
+padding: 20px 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.nav-bar h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-bar .container .btn{
+    color: #ffffff !important;
+    padding: 0px 30px;
+}
+.item-list{
+    list-style-type: none;
+    margin: 20px;
+    position: relative;
+}
+.item-list::after{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 5px;
+    background-color: #4DADF7;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 10px;
+}
+.item-list li{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 30px ;
+    text-transform: uppercase;
+    color: #999999;
+}
+.item-list li:nth-child(4){
+    color: #008ec7;
+}
+.interview2{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 80px;
+}
+.interview1 button a{
+    text-decoration: none;
+   padding:20px 30px ;
+}
